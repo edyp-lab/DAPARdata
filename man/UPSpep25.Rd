@@ -13,9 +13,6 @@ The data frame exprs(UPSpep25) contains six columns that are the quantitation of
 The data frame fData(UPSpep25) contains the meta data about the peptides.
 
 The data frame pData(UPSpep25) contains the experimental design and gives few informations about the samples.}
-\usage{
-data(UPSpep25)
-}
 \description{
 This dataset is the final outcome of a quantitative mass spectrometry-based proteomic 
 analysis of two samples containing different concentrations of 48 human proteins (UPS1 standard 
@@ -32,7 +29,7 @@ database strategy.
 
 
 The dataset is either available as a CSV file (see inst/extdata/UPSpep25.txt), or as a \code{\link{MSnSet}}
-structure (UPSpep25).
+structure (UPSpep25). In the latter case, the quantitative data are those of the raw intensities.
 }
 \references{
 Cox J., Hein M.Y., Luber C.A., Paron I., Nagaraj N., Mann M. 

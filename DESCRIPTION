@@ -5,9 +5,9 @@ Version: 0.99.0
 Author: Samuel Wieczorek
 Maintainer: Samuel Wieczorek <samuel.wieczorek@cea.fr>
 Description: Mass-spectrometry based UPS proteomics data sets.
-Depends: R (>= 3.3), MSnbase
+Depends: R (>= 3.3)
 Suggests: DAPAR, Prostar
-Imports: utils, knitr
+Imports: utils, knitr, MSnbase
 License: GPL-2
 biocViews: ExperimentData, MassSpectrometryData
 NeedsCompilation: no
