@@ -1,5 +1,17 @@
 
+CHANGES IN VERSION 1.1.1
+-------------------------
+ o Three datasets have been added in the package.
+
+
+
 CHANGES IN VERSION 0.99.0
 -------------------------
- o Initial commit with data from XXXXXX.
+ o Initial commit with data from the ProFi project :
+ Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssié D, 
+ Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianférani S, Ferro M, 
+ Van Dorssaeler A, Burlet-Schiltz O, Schaeffer C, Couté Y, 
+ Gonzalez de Peredo A. Benchmarking quantitative label-free LC-MS data 
+ processing workflows using a complex spiked proteomic standard dataset. 
+ J Proteomics. 2016 Jan 30;132:51-62. PMID: 26585461
 

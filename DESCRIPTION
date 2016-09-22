@@ -1,7 +1,7 @@
 Package: DAPARdata
 Type: Package
 Title: Data accompanying the DAPAR and Prostar packages
-Version: 1.1.0
+Version: 1.1.1
 Author: Samuel Wieczorek
 Maintainer: Samuel Wieczorek <samuel.wieczorek@cea.fr>
 Description: Mass-spectrometry based UPS proteomics data sets.
@@ -12,3 +12,4 @@ License: GPL-2
 biocViews: ExperimentData, MassSpectrometryData
 NeedsCompilation: no
 RoxygenNote: 5.0.1
+Packaged: 2016-06-20 06:38:12 UTC; sw175264
