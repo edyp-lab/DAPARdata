@@ -1,0 +1,32 @@
+%\VignetteIndexEntry{UPSprot25 and UPSpep25 datasets description}
+%\VignetteDepends{}
+%\VignetteKeywords{Quantitative proteomics analysis}
+%\VignettePackage{DAPARdata}
+\documentclass[12pt,a4paper]{article}
+\usepackage{gensymb}
+\usepackage[utf8]{inputenc}
+
+\textwidth=6.2in
+\textheight=8.5in
+\oddsidemargin=0.2in
+\evensidemargin=0.2in
+\headheight=0in
+\headsep=0in
+
+\begin{document}
+\SweaveOpts{concordance=TRUE}
+\title{Description of the UPS\{pep/prot\}25 datasets}
+\author{
+Samuel Wieczorek\footnote{firstname.lastname@cea.fr} ,
+Florence Combes$^\ast$,
+Claire Ramus,
+Quentin Giai Gianetto,\\
+Yohann Coute,
+Myriam Ferro,
+Christophe Bruley
+and Thomas Burger$^\ast$
+}
+\maketitle
+
+
+\end{document}

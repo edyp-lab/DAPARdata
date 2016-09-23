@@ -1,9 +1,14 @@
 
 CHANGES IN VERSION 1.1.1
 -------------------------
- o Three datasets have been added in the package.
+ o Six datasets have been added in the package: 
+    Exp2_R2_pept and Exp2_R2_prot,
+    Exp2_R10_pept and Exp2_R10_prot,
+    Exp2_R100_pept and Exp2_R100_prot
 
-
+o The former datasets UPS2xxx and UPS25xxx have been renamed in:
+    Exp1_R2_pept and Exp1_R2_prot,
+    Exp1_R25_pept and Exp1_R25_prot
 
 CHANGES IN VERSION 0.99.0
 -------------------------

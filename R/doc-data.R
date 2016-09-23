@@ -1,6 +1,6 @@
-#' UPSprot25 dataset
+#' Exp1_R25_prot dataset
 #'
-#' @name UPSprot25
+#' @name Exp1_R25_prot
 #' @docType data
 #' @keywords data
 #' @description This dataset is the final outcome of a quantitative mass 
@@ -28,22 +28,22 @@
 #' original 48 ones) should be concluded as differentially abundant.
 #' 
 #' The dataset is either available as a CSV file 
-#' (see inst/extdata/UPSprot25.txt), or as a \code{\link{MSnSet}} structure 
-#' (UPSprot25.MSnset). In the latter case, the quantitative data are those of 
+#' (see inst/extdata/Exp1_R25_prot.txt), or as a \code{\link{MSnSet}} structure 
+#' (Exp1_R25_prot.MSnset). In the latter case, the quantitative data are those of 
 #' the raw intensities.
-#' @usage data(UPSprot25)
+#' @usage data(Exp1_R25_prot)
 #' @return An object of class \code{\link{MSnSet}} related to proteins
 #' quantification.
 #' @format An object of class \code{\link{MSnSet}} related to proteins
 #' quantification. It contains 6 samples divided into two conditions
 #' (25fmol and 10fmol) and 2384 proteins.
 #' 
-#' The data frame exprs(UPSprot25) contains six columns that are the 
+#' The data frame exprs(Exp1_R25_prot) contains six columns that are the 
 #' quantitation of proteins for the six replicates. 
 #' 
-#' The data frame fData(UPSprot25) contains the meta data about the proteins.
+#' The data frame fData(Exp1_R25_prot) contains the meta data about the proteins.
 #' 
-#' The data frame pData(UPSprot25) contains the experimental design and gives 
+#' The data frame pData(Exp1_R25_prot) contains the experimental design and gives 
 #' few informations about the samples.
 #' 
 #' @references Cox J., Hein M.Y., Luber C.A., Paron I., Nagaraj N., Mann M. 
@@ -60,9 +60,9 @@
 NULL
 
 
-#' UPSpep25 dataset
+#' Exp1_R25_pept dataset
 #'
-#' @name UPSpep25
+#' @name Exp1_R25_pept
 #' @docType data
 #' @keywords data
 #' @description This dataset is the final outcome of a quantitative mass 
@@ -83,22 +83,22 @@ NULL
 #' 
 #'
 #' The dataset is either available as a CSV file (see 
-#' inst/extdata/UPSpep25.txt), or as a \code{\link{MSnSet}} structure 
-#' (UPSpep25). In the latter case, the quantitative data are those of the 
+#' inst/extdata/Exp1_R25_pept.txt), or as a \code{\link{MSnSet}} structure 
+#' (Exp1_R25_pept). In the latter case, the quantitative data are those of the 
 #' raw intensities.
-#' @usage data(UPSpep25)
+#' @usage data(Exp1_R25_pept)
 #' @return An object of class \code{\link{MSnSet}} related to peptides
 #' quantification.
 #' @format An object of class \code{\link{MSnSet}} related to peptide
 #' quantification. It contains 6 samples divided into two conditions
 #' (25fmol and 10fmol) and 13918 peptides.
 #' 
-#' The data frame exprs(UPSpep25) contains six columns that are the 
+#' The data frame exprs(Exp1_R25_pept) contains six columns that are the 
 #' quantitation of peptides for the six replicates. 
 #' 
-#' The data frame fData(UPSpep25) contains the meta data about the peptides.
+#' The data frame fData(Exp1_R25_pept) contains the meta data about the peptides.
 #' 
-#' The data frame pData(UPSpep25) contains the experimental design and gives 
+#' The data frame pData(Exp1_R25_pept) contains the experimental design and gives 
 #' few informations about the samples.
 #' 
 #' @references Cox J., Hein M.Y., Luber C.A., Paron I., Nagaraj N., Mann M. 
@@ -118,9 +118,9 @@ NULL
 
 
 
-#' UPSprot2 dataset
+#' Exp1_R2_prot dataset
 #'
-#' @name UPSprot2
+#' @name Exp1_R2_prot
 #' @docType data
 #' @keywords data
 #' @description This dataset is the final outcome of a quantitative mass 
@@ -148,22 +148,22 @@ NULL
 #' original 48 ones) should be concluded as differentially abundant.
 #' 
 #' The dataset is either available as a CSV file 
-#' (see inst/extdata/UPSprot2.txt), or as a \code{\link{MSnSet}} structure 
-#' (UPSprot2.MSnset). In the latter case, the quantitative data are those of 
+#' (see inst/extdata/Exp1_R2_prot.txt), or as a \code{\link{MSnSet}} structure 
+#' (Exp1_R2_prot.MSnset). In the latter case, the quantitative data are those of 
 #' the raw intensities.
-#' @usage data(UPSprot2)
+#' @usage data(Exp1_R2_prot)
 #' @return An object of class \code{\link{MSnSet}} related to proteins
 #' quantification.
 #' @format An object of class \code{\link{MSnSet}} related to proteins
 #' quantification. It contains 6 samples divided into two conditions
 #' (10fmol and 5fmol) and 2394 proteins.
 #' 
-#' The data frame exprs(UPSprot2) contains six columns that are the 
+#' The data frame exprs(Exp1_R2_prot) contains six columns that are the 
 #' quantitation of proteins for the six replicates. 
 #' 
-#' The data frame fData(UPSprot2) contains the meta data about the proteins.
+#' The data frame fData(Exp1_R2_prot) contains the meta data about the proteins.
 #' 
-#' The data frame pData(UPSprot2) contains the experimental design and gives 
+#' The data frame pData(Exp1_R2_prot) contains the experimental design and gives 
 #' few informations about the samples.
 #' 
 #' @references Cox J., Hein M.Y., Luber C.A., Paron I., Nagaraj N., Mann M. 
@@ -180,9 +180,9 @@ NULL
 NULL
 
 
-#' UPSpep2 dataset
+#' Exp1_R2_pept dataset
 #'
-#' @name UPSpep2
+#' @name Exp1_R2_pept
 #' @docType data
 #' @keywords data
 #' @description This dataset is the final outcome of a quantitative mass 
@@ -203,22 +203,22 @@ NULL
 #' 
 #'
 #' The dataset is either available as a CSV file (see 
-#' inst/extdata/UPSpep2.txt), or as a \code{\link{MSnSet}} structure 
-#' (UPSpep2). In the latter case, the quantitative data are those of the 
+#' inst/extdata/Exp1_R2_pept.txt), or as a \code{\link{MSnSet}} structure 
+#' (Exp1_R2_pept). In the latter case, the quantitative data are those of the 
 #' raw intensities.
-#' @usage data(UPSpep2)
+#' @usage data(Exp1_R2_pept)
 #' @return An object of class \code{\link{MSnSet}} related to peptides
 #' quantification.
 #' @format An object of class \code{\link{MSnSet}} related to peptide
 #' quantification. It contains 6 samples divided into two conditions
 #' (10fmol and 5fmol) and 14048 peptides.
 #' 
-#' The data frame exprs(UPSpep2) contains six columns that are the 
+#' The data frame exprs(Exp1_R2_pept) contains six columns that are the 
 #' quantitation of peptides for the six replicates. 
 #' 
-#' The data frame fData(UPSpep2) contains the meta data about the peptides.
+#' The data frame fData(Exp1_R2_pept) contains the meta data about the peptides.
 #' 
-#' The data frame pData(UPSpep2) contains the experimental design and gives 
+#' The data frame pData(Exp1_R2_pept) contains the experimental design and gives 
 #' few informations about the samples.
 #' 
 #' @references Cox J., Hein M.Y., Luber C.A., Paron I., Nagaraj N., Mann M. 
@@ -234,3 +234,245 @@ NULL
 #' @keywords datasets
 NULL
 
+#################################################################################
+
+
+#' Exp2_R2_prot dataset
+#'
+#' @name Exp2_R2_prot
+#' @docType data
+#' @keywords data
+#' @description This dataset is xxxxxxx
+#' 
+#' From a statistical viewpoint, the goal is to find which proteins are 
+#' differentially abundant between the two conditions among the 948 
+#' quantified proteins. Ideally, the 46 quantified human proteins (out of the 
+#' original 48 ones) should be concluded as differentially abundant.
+#' 
+#' The dataset is either available as a CSV file 
+#' (see inst/extdata/Exp2_R2_prot.txt), or as a \code{\link{MSnSet}} structure 
+#' (Exp2_R2_prot.MSnset). In the latter case, the quantitative data are those of 
+#' the raw intensities.
+#' @usage data(Exp2_R2_prot)
+#' @return An object of class \code{\link{MSnSet}} related to proteins
+#' quantification.
+#' @format An object of class \code{\link{MSnSet}} related to proteins
+#' quantification. It contains 6 samples divided into two conditions
+#' (25fmol and 50fmol) and 948 proteins.
+#' 
+#' The data frame exprs(Exp2_R2_prot) contains six columns that are the 
+#' quantitation of proteins for the six replicates. 
+#' 
+#' The data frame fData(Exp2_R2_prot) contains the meta data about the proteins.
+#' 
+#' The data frame pData(Exp2_R2_prot) contains the experimental design and gives 
+#' few informations about the samples.
+#' 
+#' @references xxxxxxx
+#' 
+#' @keywords datasets
+NULL
+
+
+
+
+
+
+#################################################################################
+
+
+#' Exp2_R2_pept dataset
+#'
+#' @name Exp2_R2_pept
+#' @docType data
+#' @keywords data
+#' @description This dataset is xxxxxxx
+#' 
+#' The dataset is either available as a CSV file 
+#' (see inst/extdata/Exp2_R2_pept.txt), or as a \code{\link{MSnSet}} structure 
+#' (Exp2_R2_pept.MSnset). In the latter case, the quantitative data are those of 
+#' the raw intensities.
+#' @usage data(Exp2_R2_pept)
+#' @return An object of class \code{\link{MSnSet}} related to peptides
+#' quantification.
+#' @format An object of class \code{\link{MSnSet}} related to peptides
+#' quantification. It contains 6 samples divided into two conditions
+#' (25fmol and 50fmol) and 5390 peptides.
+#' 
+#' The data frame exprs(Exp2_R2_pept) contains six columns that are the 
+#' quantitation of peptides for the six replicates. 
+#' 
+#' The data frame fData(Exp2_R2_pept) contains the meta data about the peptides
+#' 
+#' The data frame pData(Exp2_R2_pept) contains the experimental design and gives 
+#' few informations about the samples.
+#' 
+#' @references xxxxxxx
+#' 
+#' @keywords datasets
+NULL
+
+
+
+
+#################################################################################
+
+
+#' Exp2_R10_prot dataset
+#'
+#' @name Exp2_R10_prot
+#' @docType data
+#' @keywords data
+#' @description This dataset is xxxxxxx
+#' 
+#' From a statistical viewpoint, the goal is to find which proteins are 
+#' differentially abundant between the two conditions among the 948 
+#' quantified proteins. Ideally, the 46 quantified human proteins (out of the 
+#' original 48 ones) should be concluded as differentially abundant.
+#' 
+#' The dataset is either available as a CSV file 
+#' (see inst/extdata/Exp2_R10_prot.txt), or as a \code{\link{MSnSet}} structure 
+#' (Exp2_R10_prot.MSnset). In the latter case, the quantitative data are those of 
+#' the raw intensities.
+#' @usage data(Exp2_R10_prot)
+#' @return An object of class \code{\link{MSnSet}} related to proteins
+#' quantification.
+#' @format An object of class \code{\link{MSnSet}} related to proteins
+#' quantification. It contains 6 samples divided into two conditions
+#' (10 fmol and 100 fmol) and 948 proteins.
+#' 
+#' The data frame exprs(Exp2_R10_prot) contains six columns that are the 
+#' quantitation of proteins for the six replicates. 
+#' 
+#' The data frame fData(Exp2_R10_prot) contains the meta data about the proteins.
+#' 
+#' The data frame pData(Exp2_R10_prot) contains the experimental design and gives 
+#' few informations about the samples.
+#' 
+#' @references xxxxxxx
+#' 
+#' @keywords datasets
+NULL
+
+
+
+
+
+
+#################################################################################
+
+
+#' Exp2_R10_pept dataset
+#'
+#' @name Exp2_R10_pept
+#' @docType data
+#' @keywords data
+#' @description This dataset is xxxxxxx
+#' 
+#' The dataset is either available as a CSV file 
+#' (see inst/extdata/Exp2_R10_pept.txt), or as a \code{\link{MSnSet}} structure 
+#' (Exp2_R10_pept.MSnset). In the latter case, the quantitative data are those of 
+#' the raw intensities.
+#' @usage data(Exp2_R10_pept)
+#' @return An object of class \code{\link{MSnSet}} related to peptides
+#' quantification.
+#' @format An object of class \code{\link{MSnSet}} related to peptides
+#' quantification. It contains 6 samples divided into two conditions
+#' (10 fmol and 100 fmol) and 5633 peptides.
+#' 
+#' The data frame exprs(Exp2_R10_pept) contains six columns that are the 
+#' quantitation of peptides for the six replicates. 
+#' 
+#' The data frame fData(Exp2_R10_pept) contains the meta data about the peptides
+#' 
+#' The data frame pData(Exp2_R10_pept) contains the experimental design and gives 
+#' few informations about the samples.
+#' 
+#' @references xxxxxxx
+#' 
+#' @keywords datasets
+NULL
+
+
+
+
+
+
+
+#################################################################################
+
+
+#' Exp2_R100_prot dataset
+#'
+#' @name Exp2_R100_prot
+#' @docType data
+#' @keywords data
+#' @description This dataset is xxxxxxx
+#' 
+#' From a statistical viewpoint, the goal is to find which proteins are 
+#' differentially abundant between the two conditions among the 948 
+#' quantified proteins. Ideally, the 46 quantified human proteins (out of the 
+#' original 48 ones) should be concluded as differentially abundant.
+#' 
+#' The dataset is either available as a CSV file 
+#' (see inst/extdata/Exp2_R100_prot.txt), or as a \code{\link{MSnSet}} structure 
+#' (Exp2_R100_prot.MSnset). In the latter case, the quantitative data are those of 
+#' the raw intensities.
+#' @usage data(Exp2_R100_prot)
+#' @return An object of class \code{\link{MSnSet}} related to proteins
+#' quantification.
+#' @format An object of class \code{\link{MSnSet}} related to proteins
+#' quantification. It contains 6 samples divided into two conditions
+#' (1 fmol and 100 fmol) and 923 proteins.
+#' 
+#' The data frame exprs(Exp2_R100_prot) contains six columns that are the 
+#' quantitation of proteins for the six replicates. 
+#' 
+#' The data frame fData(Exp2_R100_prot) contains the meta data about the proteins.
+#' 
+#' The data frame pData(Exp2_R100_prot) contains the experimental design and gives 
+#' few informations about the samples.
+#' 
+#' @references xxxxxxx
+#' 
+#' @keywords datasets
+NULL
+
+
+
+
+
+
+#################################################################################
+
+
+#' Exp2_R100_pept dataset
+#'
+#' @name Exp2_R100_pept
+#' @docType data
+#' @keywords data
+#' @description This dataset is xxxxxxx
+#' 
+#' The dataset is either available as a CSV file 
+#' (see inst/extdata/Exp2_R100_pept.txt), or as a \code{\link{MSnSet}} structure 
+#' (Exp2_R100_peptt.MSnset). In the latter case, the quantitative data are those of 
+#' the raw intensities.
+#' @usage data(Exp2_R100_pept)
+#' @return An object of class \code{\link{MSnSet}} related to peptides
+#' quantification.
+#' @format An object of class \code{\link{MSnSet}} related to peptides
+#' quantification. It contains 6 samples divided into two conditions
+#' (1 fmol and 100 fmol) and 5684 peptides.
+#' 
+#' The data frame exprs(Exp2_R100_pept) contains six columns that are the 
+#' quantitation of peptides for the six replicates. 
+#' 
+#' The data frame fData(Exp2_R100_pept) contains the meta data about the peptides
+#' 
+#' The data frame pData(Exp2_R100_pept) contains the experimental design and gives 
+#' few informations about the samples.
+#' 
+#' @references xxxxxxx
+#' 
+#' @keywords datasets
+NULL
