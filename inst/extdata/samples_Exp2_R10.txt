@@ -1,7 +1,0 @@
-Experiment	Label	Bio.Rep	Tech.Rep	Analyt.Rep
-Intensity.10_R1	10fmol    R1	1	-	-
-Intensity.10_R2	10fmol    R2	2	-	-
-Intensity.10_R3	10fmol    R3	3	-	-
-Intensity.100_R1	100fmol    R1	1	-	-
-Intensity.100_R2	100fmol    R2	2	-	-
-Intensity.100_R3	100fmol    R3	3	-	-
