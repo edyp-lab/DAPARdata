@@ -1,3 +1,6 @@
+CHANGES IN VERSION 1.1.1
+-------------------------
+Reformat the documentation of the package
 
 CHANGES IN VERSION 1.1.1
 -------------------------
@@ -5,6 +8,13 @@ CHANGES IN VERSION 1.1.1
     Exp2_R2_pept and Exp2_R2_prot,
     Exp2_R10_pept and Exp2_R10_prot,
     Exp2_R100_pept and Exp2_R100_prot
+
+    Those datasets come from : 
+    Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssié D, 
+    Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianférani S, Ferro M, 
+    Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Couté Y, Gonzalez de Peredo A.
+    Spiked proteomic standard dataset for testing label-free quantitative software 
+    and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
 
 o The former datasets UPS2xxx and UPS25xxx have been renamed in:
     Exp1_R2_pept and Exp1_R2_prot,

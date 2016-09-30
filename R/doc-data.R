@@ -14,19 +14,6 @@
 #' before mass spectrometry analyses. Three technical replicates were acquired 
 #' for each condition.
 #' 
-#' To identify and quantify proteins, spectra were searched using MaxQuant 
-#' (version 1.5.1.2) against the Uniprot database, the UPS database and the 
-#' frequently observed contaminants database. Maximum false discovery rates 
-#' were set to 0.01 at peptide and protein levels by employing a reverse 
-#' database strategy. The abundance values of the dataset were obtained from 
-#' LFQ values calculated using MaxQuant from MS intensity of unique peptides 
-#' (see Cox et al. (2014)).
-#' 
-#' From a statistical viewpoint, the goal is to find which proteins are 
-#' differentially abundant between the two conditions among the 2384 
-#' quantified proteins. Ideally, the 46 quantified human proteins (out of the 
-#' original 48 ones) should be concluded as differentially abundant.
-#' 
 #' The dataset is either available as a CSV file 
 #' (see inst/extdata/Exp1_R25_prot.txt), or as a \code{\link{MSnSet}} structure 
 #' (Exp1_R25_prot.MSnset). In the latter case, the quantitative data are those of 
@@ -76,12 +63,6 @@ NULL
 #' before mass spectrometry analyses. Three technical replicates were 
 #' acquired for each condition.
 #' 
-#' To identify and quantify peptides, spectra were searched using MaxQuant 
-#' (version 1.5.1.2) against the Uniprot database, the UPS database and the 
-#' frequently observed contaminants database. Maximum false discovery rates 
-#' were set to 0.01 by employing a reverse database strategy.
-#' 
-#'
 #' The dataset is either available as a CSV file (see 
 #' inst/extdata/Exp1_R25_pept.txt), or as a \code{\link{MSnSet}} structure 
 #' (Exp1_R25_pept). In the latter case, the quantitative data are those of the 
@@ -134,19 +115,6 @@ NULL
 #' before mass spectrometry analyses. Three technical replicates were acquired 
 #' for each condition.
 #' 
-#' To identify and quantify proteins, spectra were searched using MaxQuant 
-#' (version 1.5.1.2) against the Uniprot database, the UPS database and the 
-#' frequently observed contaminants database. Maximum false discovery rates 
-#' were set to 0.01 at peptide and protein levels by employing a reverse 
-#' database strategy. The abundance values of the dataset were obtained from 
-#' LFQ values calculated using MaxQuant from MS intensity of unique peptides 
-#' (see Cox et al. (2014)).
-#' 
-#' From a statistical viewpoint, the goal is to find which proteins are 
-#' differentially abundant between the two conditions among the 2394 
-#' quantified proteins. Ideally, the 46 quantified human proteins (out of the 
-#' original 48 ones) should be concluded as differentially abundant.
-#' 
 #' The dataset is either available as a CSV file 
 #' (see inst/extdata/Exp1_R2_prot.txt), or as a \code{\link{MSnSet}} structure 
 #' (Exp1_R2_prot.MSnset). In the latter case, the quantitative data are those of 
@@ -196,12 +164,6 @@ NULL
 #' before mass spectrometry analyses. Three technical replicates were 
 #' acquired for each condition.
 #' 
-#' To identify and quantify peptides, spectra were searched using MaxQuant 
-#' (version 1.5.1.2) against the Uniprot database, the UPS database and the 
-#' frequently observed contaminants database. Maximum false discovery rates 
-#' were set to 0.01 by employing a reverse database strategy.
-#' 
-#'
 #' The dataset is either available as a CSV file (see 
 #' inst/extdata/Exp1_R2_pept.txt), or as a \code{\link{MSnSet}} structure 
 #' (Exp1_R2_pept). In the latter case, the quantitative data are those of the 
@@ -242,12 +204,17 @@ NULL
 #' @name Exp2_R2_prot
 #' @docType data
 #' @keywords data
-#' @description This dataset is xxxxxxx
+#' @description This dataset is the final outcome of a quantitative mass 
+#' spectrometry-based proteomic analysis of two samples containing different 
+#' concentrations of 48 human proteins (UPS1 standard from Sigma-Aldrich) 
+#' within a constant yeast background (see Ramus et al. (2015) for 
+#' details). It contains the abundance values of the different human and 
+#' yeast peptides identified and quantified in these two conditions. The two 
+#' conditions represent the measured abundances of peptides when respectively 
+#' 25 fmol and 50 fmol of UPS1 human proteins were mixed with the yeast extract 
+#' before mass spectrometry analyses. Three technical replicates were 
+#' acquired for each condition.
 #' 
-#' From a statistical viewpoint, the goal is to find which proteins are 
-#' differentially abundant between the two conditions among the 948 
-#' quantified proteins. Ideally, the 46 quantified human proteins (out of the 
-#' original 48 ones) should be concluded as differentially abundant.
 #' 
 #' The dataset is either available as a CSV file 
 #' (see inst/extdata/Exp2_R2_prot.txt), or as a \code{\link{MSnSet}} structure 
@@ -268,7 +235,12 @@ NULL
 #' The data frame pData(Exp2_R2_prot) contains the experimental design and gives 
 #' few informations about the samples.
 #' 
-#' @references xxxxxxx
+#' @references 
+#' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
+#' Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, Ferro M, 
+#' Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Coute Y, Gonzalez de Peredo A.
+#' Spiked proteomic standard dataset for testing label-free quantitative software 
+#' and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
 #' 
 #' @keywords datasets
 NULL
@@ -286,7 +258,16 @@ NULL
 #' @name Exp2_R2_pept
 #' @docType data
 #' @keywords data
-#' @description This dataset is xxxxxxx
+#' @description This dataset is the final outcome of a quantitative mass 
+#' spectrometry-based proteomic analysis of two samples containing different 
+#' concentrations of 48 human proteins (UPS1 standard from Sigma-Aldrich) 
+#' within a constant yeast background (see Ramus et al. (2015) for 
+#' details). It contains the abundance values of the different human and 
+#' yeast peptides identified and quantified in these two conditions. The two 
+#' conditions represent the measured abundances of peptides when respectively 
+#' 25 fmol and 50 fmol of UPS1 human proteins were mixed with the yeast extract 
+#' before mass spectrometry analyses. Three technical replicates were 
+#' acquired for each condition.
 #' 
 #' The dataset is either available as a CSV file 
 #' (see inst/extdata/Exp2_R2_pept.txt), or as a \code{\link{MSnSet}} structure 
@@ -307,7 +288,12 @@ NULL
 #' The data frame pData(Exp2_R2_pept) contains the experimental design and gives 
 #' few informations about the samples.
 #' 
-#' @references xxxxxxx
+#' @references
+#' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
+#' Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, Ferro M, 
+#' Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Coute Y, Gonzalez de Peredo A.
+#' Spiked proteomic standard dataset for testing label-free quantitative software 
+#' and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
 #' 
 #' @keywords datasets
 NULL
@@ -323,12 +309,17 @@ NULL
 #' @name Exp2_R10_prot
 #' @docType data
 #' @keywords data
-#' @description This dataset is xxxxxxx
+#' @description This dataset is the final outcome of a quantitative mass 
+#' spectrometry-based proteomic analysis of two samples containing different 
+#' concentrations of 48 human proteins (UPS1 standard from Sigma-Aldrich) 
+#' within a constant yeast background (see Ramus et al. (2015) for 
+#' details). It contains the abundance values of the different human and 
+#' yeast peptides identified and quantified in these two conditions. The two 
+#' conditions represent the measured abundances of peptides when respectively 
+#' 10 fmol and 100 fmol of UPS1 human proteins were mixed with the yeast extract 
+#' before mass spectrometry analyses. Three technical replicates were 
+#' acquired for each condition.
 #' 
-#' From a statistical viewpoint, the goal is to find which proteins are 
-#' differentially abundant between the two conditions among the 948 
-#' quantified proteins. Ideally, the 46 quantified human proteins (out of the 
-#' original 48 ones) should be concluded as differentially abundant.
 #' 
 #' The dataset is either available as a CSV file 
 #' (see inst/extdata/Exp2_R10_prot.txt), or as a \code{\link{MSnSet}} structure 
@@ -349,7 +340,12 @@ NULL
 #' The data frame pData(Exp2_R10_prot) contains the experimental design and gives 
 #' few informations about the samples.
 #' 
-#' @references xxxxxxx
+#' @references
+#' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
+#' Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, Ferro M, 
+#' Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Coute Y, Gonzalez de Peredo A.
+#' Spiked proteomic standard dataset for testing label-free quantitative software 
+#' and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
 #' 
 #' @keywords datasets
 NULL
@@ -367,7 +363,17 @@ NULL
 #' @name Exp2_R10_pept
 #' @docType data
 #' @keywords data
-#' @description This dataset is xxxxxxx
+#' @description This dataset is the final outcome of a quantitative mass 
+#' spectrometry-based proteomic analysis of two samples containing different 
+#' concentrations of 48 human proteins (UPS1 standard from Sigma-Aldrich) 
+#' within a constant yeast background (see Ramus et al. (2015) for 
+#' details). It contains the abundance values of the different human and 
+#' yeast peptides identified and quantified in these two conditions. The two 
+#' conditions represent the measured abundances of peptides when respectively 
+#' 10 fmol and 100 fmol of UPS1 human proteins were mixed with the yeast extract 
+#' before mass spectrometry analyses. Three technical replicates were 
+#' acquired for each condition.
+#' 
 #' 
 #' The dataset is either available as a CSV file 
 #' (see inst/extdata/Exp2_R10_pept.txt), or as a \code{\link{MSnSet}} structure 
@@ -388,7 +394,12 @@ NULL
 #' The data frame pData(Exp2_R10_pept) contains the experimental design and gives 
 #' few informations about the samples.
 #' 
-#' @references xxxxxxx
+#' @references
+#' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
+#' Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, Ferro M, 
+#' Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Coute Y, Gonzalez de Peredo A.
+#' Spiked proteomic standard dataset for testing label-free quantitative software 
+#' and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
 #' 
 #' @keywords datasets
 NULL
@@ -407,12 +418,17 @@ NULL
 #' @name Exp2_R100_prot
 #' @docType data
 #' @keywords data
-#' @description This dataset is xxxxxxx
+#' @description This dataset is the final outcome of a quantitative mass 
+#' spectrometry-based proteomic analysis of two samples containing different 
+#' concentrations of 48 human proteins (UPS1 standard from Sigma-Aldrich) 
+#' within a constant yeast background (see Ramus et al. (2015) for 
+#' details). It contains the abundance values of the different human and 
+#' yeast peptides identified and quantified in these two conditions. The two 
+#' conditions represent the measured abundances of peptides when respectively 
+#' 1 fmol and 100 fmol of UPS1 human proteins were mixed with the yeast extract 
+#' before mass spectrometry analyses. Three technical replicates were 
+#' acquired for each condition.
 #' 
-#' From a statistical viewpoint, the goal is to find which proteins are 
-#' differentially abundant between the two conditions among the 948 
-#' quantified proteins. Ideally, the 46 quantified human proteins (out of the 
-#' original 48 ones) should be concluded as differentially abundant.
 #' 
 #' The dataset is either available as a CSV file 
 #' (see inst/extdata/Exp2_R100_prot.txt), or as a \code{\link{MSnSet}} structure 
@@ -433,7 +449,12 @@ NULL
 #' The data frame pData(Exp2_R100_prot) contains the experimental design and gives 
 #' few informations about the samples.
 #' 
-#' @references xxxxxxx
+#' @references
+#' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
+#' Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, Ferro M, 
+#' Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Coute Y, Gonzalez de Peredo A.
+#' Spiked proteomic standard dataset for testing label-free quantitative software 
+#' and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
 #' 
 #' @keywords datasets
 NULL
@@ -451,7 +472,17 @@ NULL
 #' @name Exp2_R100_pept
 #' @docType data
 #' @keywords data
-#' @description This dataset is xxxxxxx
+#' @description This dataset is the final outcome of a quantitative mass 
+#' spectrometry-based proteomic analysis of two samples containing different 
+#' concentrations of 48 human proteins (UPS1 standard from Sigma-Aldrich) 
+#' within a constant yeast background (see Ramus et al. (2015) for 
+#' details). It contains the abundance values of the different human and 
+#' yeast peptides identified and quantified in these two conditions. The two 
+#' conditions represent the measured abundances of peptides when respectively 
+#' 1 fmol and 100 fmol of UPS1 human proteins were mixed with the yeast extract 
+#' before mass spectrometry analyses. Three technical replicates were 
+#' acquired for each condition.
+#' 
 #' 
 #' The dataset is either available as a CSV file 
 #' (see inst/extdata/Exp2_R100_pept.txt), or as a \code{\link{MSnSet}} structure 
@@ -472,7 +503,12 @@ NULL
 #' The data frame pData(Exp2_R100_pept) contains the experimental design and gives 
 #' few informations about the samples.
 #' 
-#' @references xxxxxxx
+#' @references
+#' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
+#' Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, Ferro M, 
+#' Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Coute Y, Gonzalez de Peredo A.
+#' Spiked proteomic standard dataset for testing label-free quantitative software 
+#' and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
 #' 
 #' @keywords datasets
 NULL

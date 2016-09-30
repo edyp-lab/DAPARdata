@@ -34,12 +34,6 @@ conditions represent the measured abundances of peptides when respectively
 before mass spectrometry analyses. Three technical replicates were 
 acquired for each condition.
 
-To identify and quantify peptides, spectra were searched using MaxQuant 
-(version 1.5.1.2) against the Uniprot database, the UPS database and the 
-frequently observed contaminants database. Maximum false discovery rates 
-were set to 0.01 by employing a reverse database strategy.
-
-
 The dataset is either available as a CSV file (see 
 inst/extdata/Exp1_R2_pept.txt), or as a \code{\link{MSnSet}} structure 
 (Exp1_R2_pept). In the latter case, the quantitative data are those of the 

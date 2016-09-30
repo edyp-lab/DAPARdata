@@ -23,12 +23,17 @@ An object of class \code{\link{MSnSet}} related to proteins
 quantification.
 }
 \description{
-This dataset is xxxxxxx
+This dataset is the final outcome of a quantitative mass 
+spectrometry-based proteomic analysis of two samples containing different 
+concentrations of 48 human proteins (UPS1 standard from Sigma-Aldrich) 
+within a constant yeast background (see Ramus et al. (2015) for 
+details). It contains the abundance values of the different human and 
+yeast peptides identified and quantified in these two conditions. The two 
+conditions represent the measured abundances of peptides when respectively 
+25 fmol and 50 fmol of UPS1 human proteins were mixed with the yeast extract 
+before mass spectrometry analyses. Three technical replicates were 
+acquired for each condition.
 
-From a statistical viewpoint, the goal is to find which proteins are 
-differentially abundant between the two conditions among the 948 
-quantified proteins. Ideally, the 46 quantified human proteins (out of the 
-original 48 ones) should be concluded as differentially abundant.
 
 The dataset is either available as a CSV file 
 (see inst/extdata/Exp2_R2_prot.txt), or as a \code{\link{MSnSet}} structure 
@@ -36,7 +41,11 @@ The dataset is either available as a CSV file
 the raw intensities.
 }
 \references{
-xxxxxxx
+Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
+Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, Ferro M, 
+Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Coute Y, Gonzalez de Peredo A.
+Spiked proteomic standard dataset for testing label-free quantitative software 
+and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
 }
 \keyword{data}
 \keyword{datasets}

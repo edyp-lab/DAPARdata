@@ -1,10 +1,15 @@
 Package: DAPARdata
 Type: Package
 Title: Data accompanying the DAPAR and Prostar packages
-Version: 1.1.1
-Author: Samuel Wieczorek
+Version: 1.1.3
+Author: Samuel Wieczorek and Florence Combes
 Maintainer: Samuel Wieczorek <samuel.wieczorek@cea.fr>
-Description: Mass-spectrometry based UPS proteomics data sets.
+Description: Mass-spectrometry based UPS proteomics data sets from Ramus C, 
+            Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssié D, 
+            Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianférani S, Ferro M, 
+            Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Couté Y, Gonzalez de Peredo A.
+            Spiked proteomic standard dataset for testing label-free quantitative software 
+            and statistical methods. Data Brief. 2015 Dec 17;6:286-94 and xxxxxx.
 Depends: R (>= 3.3)
 Suggests: DAPAR, Prostar
 Imports: utils, knitr, MSnbase

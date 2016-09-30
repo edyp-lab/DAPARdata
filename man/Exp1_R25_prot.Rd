@@ -34,19 +34,6 @@ conditions represent the measured abundances of proteins when respectively
 before mass spectrometry analyses. Three technical replicates were acquired 
 for each condition.
 
-To identify and quantify proteins, spectra were searched using MaxQuant 
-(version 1.5.1.2) against the Uniprot database, the UPS database and the 
-frequently observed contaminants database. Maximum false discovery rates 
-were set to 0.01 at peptide and protein levels by employing a reverse 
-database strategy. The abundance values of the dataset were obtained from 
-LFQ values calculated using MaxQuant from MS intensity of unique peptides 
-(see Cox et al. (2014)).
-
-From a statistical viewpoint, the goal is to find which proteins are 
-differentially abundant between the two conditions among the 2384 
-quantified proteins. Ideally, the 46 quantified human proteins (out of the 
-original 48 ones) should be concluded as differentially abundant.
-
 The dataset is either available as a CSV file 
 (see inst/extdata/Exp1_R25_prot.txt), or as a \code{\link{MSnSet}} structure 
 (Exp1_R25_prot.MSnset). In the latter case, the quantitative data are those of 
