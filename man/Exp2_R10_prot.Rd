@@ -31,8 +31,8 @@ details). It contains the abundance values of the different human and
 yeast peptides identified and quantified in these two conditions. The two 
 conditions represent the measured abundances of peptides when respectively 
 10 fmol and 100 fmol of UPS1 human proteins were mixed with the yeast extract 
-before mass spectrometry analyses. Three technical replicates were 
-acquired for each condition.
+before mass spectrometry analyses. This results in a concentration ratio of 10. 
+Three technical replicates were acquired for each condition.
 
 
 The dataset is either available as a CSV file 

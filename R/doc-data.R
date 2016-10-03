@@ -10,8 +10,9 @@
 #' details). It contains the abundance values of the different human and 
 #' yeast proteins identified and quantified in these two conditions. The two 
 #' conditions represent the measured abundances of proteins when respectively 
-#' 25fmol and 10fmol of UPS1 human proteins were mixed with the yeast extract 
-#' before mass spectrometry analyses. Three technical replicates were acquired 
+#' 25 fmol and 10 fmol of UPS1 human proteins were mixed with the yeast extract 
+#' before mass spectrometry analyses. This results in a concentration ratio of 2.5.
+#' Three technical replicates were acquired 
 #' for each condition.
 #' 
 #' The dataset is either available as a CSV file 
@@ -59,8 +60,9 @@ NULL
 #' details). It contains the abundance values of the different human and 
 #' yeast peptides identified and quantified in these two conditions. The two 
 #' conditions represent the measured abundances of peptides when respectively 
-#' 25fmol and 10fmol of UPS1 human proteins were mixed with the yeast extract 
-#' before mass spectrometry analyses. Three technical replicates were 
+#' 25 fmol and 10 fmol of UPS1 human proteins were mixed with the yeast extract 
+#' before mass spectrometry analyses. This results in a concentration ratio of 2.5. 
+#' Three technical replicates were 
 #' acquired for each condition.
 #' 
 #' The dataset is either available as a CSV file (see 
@@ -111,8 +113,9 @@ NULL
 #' details). It contains the abundance values of the different human and 
 #' yeast proteins identified and quantified in these two conditions. The two 
 #' conditions represent the measured abundances of proteins when respectively 
-#' 25fmol and 10fmol of UPS1 human proteins were mixed with the yeast extract 
-#' before mass spectrometry analyses. Three technical replicates were acquired 
+#' 5 fmol and 10 fmol of UPS1 human proteins were mixed with the yeast extract 
+#' before mass spectrometry analyses. This results in a concentration ratio of 2.
+#' Three technical replicates were acquired 
 #' for each condition.
 #' 
 #' The dataset is either available as a CSV file 
@@ -160,9 +163,9 @@ NULL
 #' details). It contains the abundance values of the different human and 
 #' yeast peptides identified and quantified in these two conditions. The two 
 #' conditions represent the measured abundances of peptides when respectively 
-#' 25fmol and 10fmol of UPS1 human proteins were mixed with the yeast extract 
-#' before mass spectrometry analyses. Three technical replicates were 
-#' acquired for each condition.
+#' 5 fmol and 10 fmol of UPS1 human proteins were mixed with the yeast extract 
+#' before mass spectrometry analyses. This results in a concentration ratio of 2.
+#' Three technical replicates were acquired for each condition.
 #' 
 #' The dataset is either available as a CSV file (see 
 #' inst/extdata/Exp1_R2_pept.txt), or as a \code{\link{MSnSet}} structure 
@@ -212,7 +215,8 @@ NULL
 #' yeast peptides identified and quantified in these two conditions. The two 
 #' conditions represent the measured abundances of peptides when respectively 
 #' 25 fmol and 50 fmol of UPS1 human proteins were mixed with the yeast extract 
-#' before mass spectrometry analyses. Three technical replicates were 
+#' before mass spectrometry analyses. This results in a concentration ratio of 2.
+#' Three technical replicates were 
 #' acquired for each condition.
 #' 
 #' 
@@ -225,7 +229,7 @@ NULL
 #' quantification.
 #' @format An object of class \code{\link{MSnSet}} related to proteins
 #' quantification. It contains 6 samples divided into two conditions
-#' (25fmol and 50fmol) and 948 proteins.
+#' (25 fmol and 50 fmol) and 948 proteins.
 #' 
 #' The data frame exprs(Exp2_R2_prot) contains six columns that are the 
 #' quantitation of proteins for the six replicates. 
@@ -266,8 +270,8 @@ NULL
 #' yeast peptides identified and quantified in these two conditions. The two 
 #' conditions represent the measured abundances of peptides when respectively 
 #' 25 fmol and 50 fmol of UPS1 human proteins were mixed with the yeast extract 
-#' before mass spectrometry analyses. Three technical replicates were 
-#' acquired for each condition.
+#' before mass spectrometry analyses. This results in a concentration ratio of 2. 
+#' Three technical replicates were acquired for each condition.
 #' 
 #' The dataset is either available as a CSV file 
 #' (see inst/extdata/Exp2_R2_pept.txt), or as a \code{\link{MSnSet}} structure 
@@ -317,8 +321,8 @@ NULL
 #' yeast peptides identified and quantified in these two conditions. The two 
 #' conditions represent the measured abundances of peptides when respectively 
 #' 10 fmol and 100 fmol of UPS1 human proteins were mixed with the yeast extract 
-#' before mass spectrometry analyses. Three technical replicates were 
-#' acquired for each condition.
+#' before mass spectrometry analyses. This results in a concentration ratio of 10. 
+#' Three technical replicates were acquired for each condition.
 #' 
 #' 
 #' The dataset is either available as a CSV file 
@@ -371,8 +375,8 @@ NULL
 #' yeast peptides identified and quantified in these two conditions. The two 
 #' conditions represent the measured abundances of peptides when respectively 
 #' 10 fmol and 100 fmol of UPS1 human proteins were mixed with the yeast extract 
-#' before mass spectrometry analyses. Three technical replicates were 
-#' acquired for each condition.
+#' before mass spectrometry analyses. This results in a concentration ratio of 10. 
+#' Three technical replicates were acquired for each condition.
 #' 
 #' 
 #' The dataset is either available as a CSV file 
@@ -426,8 +430,8 @@ NULL
 #' yeast peptides identified and quantified in these two conditions. The two 
 #' conditions represent the measured abundances of peptides when respectively 
 #' 1 fmol and 100 fmol of UPS1 human proteins were mixed with the yeast extract 
-#' before mass spectrometry analyses. Three technical replicates were 
-#' acquired for each condition.
+#' before mass spectrometry analyses. This results in a concentration ratio of 100.
+#' Three technical replicates were acquired for each condition.
 #' 
 #' 
 #' The dataset is either available as a CSV file 
@@ -480,8 +484,8 @@ NULL
 #' yeast peptides identified and quantified in these two conditions. The two 
 #' conditions represent the measured abundances of peptides when respectively 
 #' 1 fmol and 100 fmol of UPS1 human proteins were mixed with the yeast extract 
-#' before mass spectrometry analyses. Three technical replicates were 
-#' acquired for each condition.
+#' before mass spectrometry analyses. This results in a concentration ratio of 100.
+#' Three technical replicates were acquired for each condition.
 #' 
 #' 
 #' The dataset is either available as a CSV file 

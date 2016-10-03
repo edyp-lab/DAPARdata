@@ -6,7 +6,7 @@
 \title{Exp2_R2_prot dataset}
 \format{An object of class \code{\link{MSnSet}} related to proteins
 quantification. It contains 6 samples divided into two conditions
-(25fmol and 50fmol) and 948 proteins.
+(25 fmol and 50 fmol) and 948 proteins.
 
 The data frame exprs(Exp2_R2_prot) contains six columns that are the 
 quantitation of proteins for the six replicates. 
@@ -31,7 +31,8 @@ details). It contains the abundance values of the different human and
 yeast peptides identified and quantified in these two conditions. The two 
 conditions represent the measured abundances of peptides when respectively 
 25 fmol and 50 fmol of UPS1 human proteins were mixed with the yeast extract 
-before mass spectrometry analyses. Three technical replicates were 
+before mass spectrometry analyses. This results in a concentration ratio of 2.
+Three technical replicates were 
 acquired for each condition.
 
 
