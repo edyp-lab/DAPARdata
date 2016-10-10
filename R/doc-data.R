@@ -24,7 +24,7 @@
 #' quantification.
 #' @format An object of class \code{\link{MSnSet}} related to proteins
 #' quantification. It contains 6 samples divided into two conditions
-#' (25fmol and 10fmol) and 2384 proteins.
+#' (25 fmol and 10 fmol) and 2384 proteins.
 #' 
 #' The data frame exprs(Exp1_R25_prot) contains six columns that are the 
 #' quantitation of proteins for the six replicates. 

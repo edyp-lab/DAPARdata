@@ -10,9 +10,9 @@ CHANGES IN VERSION 1.1.1
     Exp2_R100_pept and Exp2_R100_prot
 
     Those datasets come from : 
-    Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssié D, 
-    Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianférani S, Ferro M, 
-    Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Couté Y, Gonzalez de Peredo A.
+    Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
+    Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, Ferro M, 
+    Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Coute Y, Gonzalez de Peredo A.
     Spiked proteomic standard dataset for testing label-free quantitative software 
     and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
 
@@ -23,9 +23,9 @@ o The former datasets UPS2xxx and UPS25xxx have been renamed in:
 CHANGES IN VERSION 0.99.0
 -------------------------
  o Initial commit with data from the ProFi project :
- Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssié D, 
- Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianférani S, Ferro M, 
- Van Dorssaeler A, Burlet-Schiltz O, Schaeffer C, Couté Y, 
+ Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
+ Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, Ferro M, 
+ Van Dorssaeler A, Burlet-Schiltz O, Schaeffer C, Coute Y, 
  Gonzalez de Peredo A. Benchmarking quantitative label-free LC-MS data 
  processing workflows using a complex spiked proteomic standard dataset. 
  J Proteomics. 2016 Jan 30;132:51-62. PMID: 26585461
