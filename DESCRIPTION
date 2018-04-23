@@ -1,8 +1,8 @@
 Package: DAPARdata
 Type: Package
 Title: Data accompanying the DAPAR and Prostar packages
-Version: 1.7.1
-Date: 2017-10-10
+Version: 1.9.1
+Date: 2018-04-23
 Author: Samuel Wieczorek and Florence Combes
 Maintainer: Samuel Wieczorek <samuel.wieczorek@cea.fr>
 Description: Mass-spectrometry based UPS proteomics data sets from Ramus C, 
@@ -15,11 +15,11 @@ Description: Mass-spectrometry based UPS proteomics data sets from Ramus C,
             Burger, T. (2016). Calibration plot for proteomics: A graphical 
             tool to visually check the assumptions underlying FDR control in 
             quantitative experiments. Proteomics, 16(1), 29-32.
-Depends: R (>= 3.3)
+Depends: R (>= 3.5)
 Suggests: DAPAR, Prostar
 Imports: utils, knitr, MSnbase
 License: GPL-2
 biocViews: ExperimentData, MassSpectrometryData
 NeedsCompilation: no
 RoxygenNote: 5.0.1
-Packaged: 2016-06-20 06:38:12 UTC; sw175264
+Packaged: 2017-10-31 14:29:57 UTC; biocbuild

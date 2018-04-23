@@ -1,7 +1,7 @@
 Experiment	Label	Bio.Rep	Tech.Rep	Analyt.Rep
-Intensity.C.R1	25fmol    R1	1	-	-
-Intensity.C.R2	25fmol    R2	2	-	-
-Intensity.C.R3	25fmol    R3	3	-	-
-Intensity.D.R1	10fmol    R1	1	-	-
-Intensity.D.R2	10fmol    R2	2	-	-
-Intensity.D.R3	10fmol    R3	3	-	-
+Intensity.C.R1	25fmol	R1	1	1
+Intensity.C.R2	25fmol	R2	2	2
+Intensity.C.R3	25fmol	R3	3	3
+Intensity.D.R1	10fmol	R4	4	4
+Intensity.D.R2	10fmol	R5	5	5
+Intensity.D.R3	10fmol	R6	6	6

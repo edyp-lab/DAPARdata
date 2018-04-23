@@ -14,4 +14,5 @@ Exp1_R2_prot <- createMSnset(exprsFile,
                           indExpData, 
                           indFData, 
                           indiceID, 
+                          indexForOriginOfValue = c(36:41),
                           pep_prot_data = "protein")
