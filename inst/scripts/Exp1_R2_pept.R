@@ -8,6 +8,8 @@ metadata = read.table(metadataFile, header=TRUE, sep="\t", as.is=TRUE)
 indExpData <- c(20:25)
 indFData <- c(1:19, 26:36)
 indiceID <- 29
+versions <- list(Prostar_Version = "1.12.9",
+                 DAPAR_Version = "1.12.9")
 
 Exp1_R2_pept <- createMSnset(exprsFile, 
                           metadata, 
@@ -15,4 +17,7 @@ Exp1_R2_pept <- createMSnset(exprsFile,
                           indFData, 
                           indiceID, 
                           indexForOriginOfValue = c(13:18),
-                          pep_prot_data = "peptide")
+                          logData=FALSE, 
+                          replaceZeros=FALSE,
+                          pep_prot_data = "peptide",
+                          versions)
