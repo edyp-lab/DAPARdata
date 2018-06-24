@@ -1,4 +1,4 @@
-Experiment	Label	Bio.Rep
+Sample.name	Condition	Bio.Rep
 Intensity.C.R1	25fmol	1
 Intensity.C.R2	25fmol	2
 Intensity.C.R3	25fmol	3

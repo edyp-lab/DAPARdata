@@ -1,4 +1,4 @@
-Experiment	Label	Bio.Rep
+Sample.name	Condition	Bio.Rep
 Intensity.1_R1	1fmol 	1
 Intensity.1_R2	1fmol 	2
 Intensity.1_R3	1fmol 	3
