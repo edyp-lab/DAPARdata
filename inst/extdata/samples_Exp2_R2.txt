@@ -1,7 +1,7 @@
-Experiment	Label	Bio.Rep	Tech.Rep	Analyt.Rep
-Intensity.25_R1	25fmol 	R1	1	1
-Intensity.25_R2	25fmol 	R2	2	2
-Intensity.25_R3	25fmol 	R3	3	3
-Intensity.50_R1	50fmol	R4	4	4
-Intensity.50_R2	50fmol	R5	5	5
-Intensity.50_R3	50fmol	R6	6	6
+Sample.name	Condition	Bio.Rep
+Intensity.25_R1	25fmol 	1
+Intensity.25_R2	25fmol 	2
+Intensity.25_R3	25fmol 	3
+Intensity.50_R1	50fmol	4
+Intensity.50_R2	50fmol	5
+Intensity.50_R3	50fmol	6
