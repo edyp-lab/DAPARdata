@@ -20,4 +20,5 @@ Exp1_R2_pept <- createMSnset(exprsFile,
                           logData=FALSE, 
                           replaceZeros=FALSE,
                           pep_prot_data = "peptide",
+                          proteinId = "Protein_group_IDs",
                           versions)
