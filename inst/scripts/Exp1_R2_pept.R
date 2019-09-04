@@ -5,9 +5,9 @@ exprsFile <- system.file("extdata", "Exp1_R2_pept.txt", package="DAPARdata")
 
 metadataFile <- system.file("extdata", "samples_Exp1_R2.txt", package="DAPARdata")
 metadata = read.table(metadataFile, header=TRUE, sep="\t", as.is=TRUE)
-indExpData <- c(20:25)
-indFData <- c(1:19, 26:36)
-indiceID <- 29
+indExpData <- c(27:32)
+indFData <- c(1:26, 33:36)
+indiceID <- 35
 versions <- list(Prostar_Version = "1.12.9",
                  DAPAR_Version = "1.12.9")
 

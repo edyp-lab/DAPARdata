@@ -7,7 +7,7 @@ metadataFile <- system.file("extdata", "samples_Exp1_R2.txt", package="DAPARdata
 metadata = read.table(metadataFile, header=TRUE, sep="\t", as.is=TRUE)
 indExpData <- c(49:54)
 indFData <- c(1:48, 55:86)
-indiceID <- 72
+indiceID <- 78
 versions <- list(Prostar_Version = "1.12.9",
                  DAPAR_Version = "1.12.9")
 Exp1_R2_prot <- createMSnset(exprsFile, 
