@@ -17,7 +17,8 @@ Exp1_R2_prot <- createMSnset(exprsFile,
                           indiceID, 
                           indexForOriginOfValue = c(36:41),
                           logData=FALSE, 
-                          replaceZeros=FALSE,
+                          replaceZeros=TRUE,
                           pep_prot_data = "protein",
                           proteinId = "Protein_IDs",
                           versions)
+fData(Exp1_R2_prot)[,"Intensity"] <- as.numeric(fData(Exp1_R2_prot)[,"Intensity"])

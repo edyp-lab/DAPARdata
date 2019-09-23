@@ -16,8 +16,11 @@ Exp2_R100_prot <- createMSnset(exprsFile,
                          indFData, 
                          indiceID, 
                          indexForOriginOfValue = c(37:42),
-                         logData=FALSE, 
-                         replaceZeros=FALSE,
+                         logData=TRUE, 
+                         replaceZeros=TRUE,
                          pep_prot_data = "protein",
                          proteinId = "Protein_IDs",
                          versions)
+
+fData(Exp2_R100_prot)[,'iBAQ_1_R3'] <- as.numeric(fData(Exp2_R100_prot)[,'iBAQ_1_R3'])
+fData(Exp2_R100_prot)[,'iBAQ_100_R1'] <- as.numeric(fData(Exp2_R100_prot)[,'iBAQ_100_R1'])
