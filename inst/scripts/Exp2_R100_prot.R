@@ -7,19 +7,19 @@ metadataFile <- system.file("extdata", "samples_Exp2_R100.txt", package="DAPARda
 metadata <- read.table(metadataFile, header=TRUE, sep="\t", as.is=TRUE)
 indExpData <- c(1:6)
 indFData <- c(7:87)
-indiceID <- 79
-versions <- list(Prostar_Version = "1.12.9",
-                 DAPAR_Version = "1.12.9")
+keyId <- 79
+versions <- list(Prostar_Version = "2.0",
+                 DAPAR_Version = "2.0")
 Exp2_R100_prot <- createMSnset(exprsFile, 
                          metadata, 
                          indExpData, 
                          indFData, 
-                         indiceID, 
+                         keyId = keyId, 
                          indexForOriginOfValue = c(37:42),
                          logData=TRUE, 
                          replaceZeros=TRUE,
-                         pep_prot_data = "protein",
-                         proteinId = "Protein_IDs",
+                         typeOfData = "protein",
+                         parentProtId = NULL,
                          versions)
 
 fData(Exp2_R100_prot)[,'iBAQ_1_R3'] <- as.numeric(fData(Exp2_R100_prot)[,'iBAQ_1_R3'])
