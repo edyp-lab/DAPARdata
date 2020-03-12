@@ -53,4 +53,3 @@ experiments. Proteomics, 16(1), 29-32.
 }
 \keyword{data}
 \keyword{datasets}
-

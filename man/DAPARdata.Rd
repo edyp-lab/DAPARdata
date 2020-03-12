@@ -15,4 +15,3 @@ This function lists the datasets available in DAPARdata package
 \examples{
 DAPARdata()
 }
-
