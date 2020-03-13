@@ -1,5 +1,4 @@
 import("MSnbase")
 import("knitr")
 export("DAPARdata")
-export("Exp1_R25_prot")
 importFrom("utils", "data", "packageVersion")
