@@ -7,7 +7,7 @@ metadataFile <- system.file("extdata", "samples_Exp1_R25.txt", package="DAPARdat
 metadata <- read.table(metadataFile, header=TRUE, sep="\t", as.is=TRUE, stringsAsFactors = FALSE)
 indExpData <- c(56:61)
 indFData <- c(1:55,62:71)
-keyId <- 64
+keyId <- "Sequence"
 versions <- list(Prostar_Version = "2.0",DAPAR_Version = "2.0")
 
 Exp1_R25_pept <- createMSnset(file = exprsFile, 
@@ -19,5 +19,5 @@ Exp1_R25_pept <- createMSnset(file = exprsFile,
                         logData=TRUE, 
                         replaceZeros=TRUE,
                         typeOfData = "peptide",
-                        parentProtId = "Protein_group_IDs",
+                        parentProtId= "Protein_group_IDs",
                         versions)
