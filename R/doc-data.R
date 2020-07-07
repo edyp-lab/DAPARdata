@@ -32,7 +32,7 @@
 #' The data frame fData(Exp1_R25_prot) contains the meta data about the proteins.
 #' 
 #' The data frame pData(Exp1_R25_prot) contains the experimental design and gives 
-#' few informations about the samples.
+#' few information about the samples.
 #' 
 #' @references Cox J., Hein M.Y., Luber C.A., Paron I., Nagaraj N., Mann M. 
 #' Accurate proteome-wide label-free quantification by delayed normalization 
@@ -82,7 +82,7 @@ NULL
 #' The data frame fData(Exp1_R25_pept) contains the meta data about the peptides.
 #' 
 #' The data frame pData(Exp1_R25_pept) contains the experimental design and gives 
-#' few informations about the samples.
+#' few information about the samples.
 #' 
 #' @references Cox J., Hein M.Y., Luber C.A., Paron I., Nagaraj N., Mann M. 
 #' Accurate proteome-wide label-free quantification by delayed normalization 
@@ -135,7 +135,7 @@ NULL
 #' The data frame fData(Exp1_R2_prot) contains the meta data about the proteins.
 #' 
 #' The data frame pData(Exp1_R2_prot) contains the experimental design and gives 
-#' few informations about the samples.
+#' few information about the samples.
 #' 
 #' @references Cox J., Hein M.Y., Luber C.A., Paron I., Nagaraj N., Mann M. 
 #' Accurate proteome-wide label-free quantification by delayed normalization 
@@ -184,7 +184,7 @@ NULL
 #' The data frame fData(Exp1_R2_pept) contains the meta data about the peptides.
 #' 
 #' The data frame pData(Exp1_R2_pept) contains the experimental design and gives 
-#' few informations about the samples.
+#' few information about the samples.
 #' 
 #' @references Cox J., Hein M.Y., Luber C.A., Paron I., Nagaraj N., Mann M. 
 #' Accurate proteome-wide label-free quantification by delayed normalization 
@@ -237,7 +237,7 @@ NULL
 #' The data frame fData(Exp2_R2_prot) contains the meta data about the proteins.
 #' 
 #' The data frame pData(Exp2_R2_prot) contains the experimental design and gives 
-#' few informations about the samples.
+#' few information about the samples.
 #' 
 #' @references 
 #' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
@@ -290,7 +290,7 @@ NULL
 #' The data frame fData(Exp2_R2_pept) contains the meta data about the peptides
 #' 
 #' The data frame pData(Exp2_R2_pept) contains the experimental design and gives 
-#' few informations about the samples.
+#' few information about the samples.
 #' 
 #' @references
 #' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
@@ -342,7 +342,7 @@ NULL
 #' The data frame fData(Exp2_R10_prot) contains the meta data about the proteins.
 #' 
 #' The data frame pData(Exp2_R10_prot) contains the experimental design and gives 
-#' few informations about the samples.
+#' few information about the samples.
 #' 
 #' @references
 #' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
@@ -396,7 +396,7 @@ NULL
 #' The data frame fData(Exp2_R10_pept) contains the meta data about the peptides
 #' 
 #' The data frame pData(Exp2_R10_pept) contains the experimental design and gives 
-#' few informations about the samples.
+#' few information about the samples.
 #' 
 #' @references
 #' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
@@ -451,7 +451,7 @@ NULL
 #' The data frame fData(Exp2_R100_prot) contains the meta data about the proteins.
 #' 
 #' The data frame pData(Exp2_R100_prot) contains the experimental design and gives 
-#' few informations about the samples.
+#' few information about the samples.
 #' 
 #' @references
 #' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
@@ -505,7 +505,7 @@ NULL
 #' The data frame fData(Exp2_R100_pept) contains the meta data about the peptides
 #' 
 #' The data frame pData(Exp2_R100_pept) contains the experimental design and gives 
-#' few informations about the samples.
+#' few information about the samples.
 #' 
 #' @references
 #' Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
@@ -513,6 +513,60 @@ NULL
 #' Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Coute Y, Gonzalez de Peredo A.
 #' Spiked proteomic standard dataset for testing label-free quantitative software 
 #' and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
+#' 
+#' @keywords datasets
+NULL
+
+
+#################################################################################
+
+
+#' Priolo_met dataset
+#'
+#' @name Priolo_met
+#' @docType data
+#' @keywords data
+#' @description This dataset is one of the three outcomes of a quantitative mass 
+#' spectrometry-based metabolomics analysis, including 60 samples of human prostate
+#' tumor and 25 samples of healthy human prostate tissu (The two other
+#' experiments was made with RPWE-1 prostatic immortal cells over-expressing the
+#' tumoral-inducing metabolites AKT1 and MYC, and prostates of mice genetically 
+#' modified to develop human-like prostatic tumors, see Priolo et al. (2014) for details).
+#' 
+#' By K-means clustering on metabolomic profiling, four prostate tumor subgroups were 
+#' identified: phosphoAKT1-high/MYC-high, phosphoAKT1-high/MYC-low, 
+#' phosphoAKT1-low/MYC-high and phosphoAKT1-low/MYC-low. Acivated or over-expressed 
+#' AKT1 and MYC are found in about 30-70\% of human prostate tumor.
+#' 
+#' Within the five conditions <Control>, <AKT1-high>, <both AKT1 and MYC high>,
+#' <both AKT1 and MYC low> and <MYC-high>, respectively twenty-five, twenty-one, six,
+#' twenty-four and nine biological replicates were acquired.
+#'  
+#' The dataset is either available as a CSV file 
+#' (see inst/extdata/Priolo_met.txt), or as a \code{\link{MSnSet}} structure 
+#' (Priolo_met.MSnset). In the latter case, the quantitative data are those of 
+#' the raw intensities.
+#' @usage data(Priolo_met)
+#' @return An object of class \code{\link{MSnSet}} related to metabolite
+#' quantification.
+#' @format An object of class \code{\link{MSnSet}} related to metabolite
+#' quantification. It contains 85 samples divided into 5 conditions
+#' (Control, AKT1-high, high, low and MYC-high) and 307 metabolites.
+#' 
+#' The data frame exprs(Priolo_met) contains 307 lines (metabolites) and 
+#' 85 columns that are the quantitation of metabolites for 25 replicates 
+#' in Control, 21 for AKT1-high, 6 for high, 24 for low and 9 for MYC-high.
+#' 
+#' The data frame fData(Priolo_met) contains the meta data about the metabolites.
+#' 
+#' The data frame pData(Priolo_met) contains the experimental design and gives 
+#' few information about the samples.
+#' 
+#' @references
+#' Priolo C, Pyne S, Rose J, Regan ER, Zadra G, Photopoulos C, Cacciatore S,
+#' Schultz D, Scaglia N, McDunn J, De Marzo AM, Loda M. AKT1 and MYC induce 
+#' distinctive metabolic fingerprints in human prostate cancer. Cancer Res. 
+#' 2014 Dec 15;74(24):7198-204.
 #' 
 #' @keywords datasets
 NULL

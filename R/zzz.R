@@ -1,8 +1,8 @@
 .onAttach <- function(libname, pkgname) {
-msg <- paste0("\nThis is DAPARdata version ",
+  msg <- paste0("\nThis is DAPARdata version ",
                 packageVersion("DAPARdata"), ".\n",
                 "Use 'DAPARdata()' to list available data sets.")
-packageStartupMessage(msg)  
+  packageStartupMessage(msg)  
 }
 
 
@@ -14,4 +14,4 @@ packageStartupMessage(msg)
 #' @examples
 #' DAPARdata()
 DAPARdata <- function() {
-data(package = "DAPARdata")}
+  data(package = "DAPARdata")}

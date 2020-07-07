@@ -4,7 +4,8 @@
 \name{Exp1_R2_prot}
 \alias{Exp1_R2_prot}
 \title{Exp1_R2_prot dataset}
-\format{An object of class \code{\link{MSnSet}} related to proteins
+\format{
+An object of class \code{\link{MSnSet}} related to proteins
 quantification. It contains 6 samples divided into two conditions
 (10fmol and 5fmol) and 2394 proteins.
 
@@ -14,7 +15,8 @@ quantitation of proteins for the six replicates.
 The data frame fData(Exp1_R2_prot) contains the meta data about the proteins.
 
 The data frame pData(Exp1_R2_prot) contains the experimental design and gives 
-few informations about the samples.}
+few information about the samples.
+}
 \usage{
 data(Exp1_R2_prot)
 }
@@ -53,4 +55,3 @@ Proteomics, 16(1), 29-32.
 }
 \keyword{data}
 \keyword{datasets}
-

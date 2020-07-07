@@ -4,7 +4,8 @@
 \name{Exp2_R100_pept}
 \alias{Exp2_R100_pept}
 \title{Exp2_R100_pept dataset}
-\format{An object of class \code{\link{MSnSet}} related to peptides
+\format{
+An object of class \code{\link{MSnSet}} related to peptides
 quantification. It contains 6 samples divided into two conditions
 (1 fmol and 100 fmol) and 5684 peptides.
 
@@ -14,7 +15,8 @@ quantitation of peptides for the six replicates.
 The data frame fData(Exp2_R100_pept) contains the meta data about the peptides
 
 The data frame pData(Exp2_R100_pept) contains the experimental design and gives 
-few informations about the samples.}
+few information about the samples.
+}
 \usage{
 data(Exp2_R100_pept)
 }
@@ -49,4 +51,3 @@ and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
 }
 \keyword{data}
 \keyword{datasets}
-
