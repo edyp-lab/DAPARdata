@@ -14,12 +14,13 @@ Exp2_R10_prot <- createMSnset(exprsFile,
                          indExpData, 
                          indFData, 
                          indiceID, 
-                         indexForOriginOfValue = c(37:42),
+                         indexForMetacell = c(37:42),
                          logData=TRUE, 
                          replaceZeros=TRUE,
                          pep_prot_data = "protein",
                          proteinId = "Protein_IDs",
-                         versions)
+                         versions,
+                         software = 'maxquant')
 
 fData(Exp2_R10_prot)[,'Sequence_lengths'] <- as.numeric(fData(Exp2_R10_prot)[,'Sequence_lengths'])
 fData(Exp2_R10_prot)[,'iBAQ_100_R1'] <- as.numeric(fData(Exp2_R10_prot)[,'iBAQ_100_R1'])

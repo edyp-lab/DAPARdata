@@ -16,9 +16,10 @@ Exp2_R100_pept <- createMSnset(exprsFile,
                          indExpData, 
                          indFData, 
                          indiceID, 
-                         indexForOriginOfValue = c(43:48),
+                         indexForMetacell = c(43:48),
                          logData=TRUE, 
                          replaceZeros=TRUE,
                          pep_prot_data = "peptide",
                          proteinId = "Protein_group_IDs",
-                         versions)
+                         versions,
+                         software = 'maxquant')
