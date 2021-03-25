@@ -8,7 +8,6 @@ metadata <- read.table(metadataFile, header=TRUE, sep="\t", as.is=TRUE)
 indExpData <- c(1:6)
 indFData <- c(7:71)
 indiceID <- 64
-versions <- list(Prostar_Version = "1.12.9",DAPAR_Version = "1.12.9")
 Exp2_R2_pept <- createMSnset(exprsFile, 
                          metadata, 
                          indExpData, 
@@ -19,5 +18,4 @@ Exp2_R2_pept <- createMSnset(exprsFile,
                          replaceZeros=TRUE,
                          pep_prot_data = "peptide",
                          proteinId = "Protein_group_IDs",
-                         versions,
                          software = 'maxquant')
