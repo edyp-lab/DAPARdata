@@ -1,8 +1,8 @@
 Package: DAPARdata
 Type: Package
 Title: Data accompanying the DAPAR and Prostar packages
-Version: 1.23.0
-Date: 2021-05-12
+Version: 1.23.1
+Date: 2021-05-21
 Author: Samuel Wieczorek and Florence Combes
 Maintainer: Samuel Wieczorek <samuel.wieczorek@cea.fr>
 Description: Mass-spectrometry based UPS proteomics data sets from Ramus C, 
@@ -16,7 +16,7 @@ Description: Mass-spectrometry based UPS proteomics data sets from Ramus C,
             tool to visually check the assumptions underlying FDR control in 
             quantitative experiments. Proteomics, 16(1), 29-32.
 Depends: R (>= 4.1.0)
-Suggests: DAPAR (>= 1.23.12)
+Suggests: DAPAR (>= 1.25.0)
 Imports: utils, knitr, MSnbase
 License: GPL-2
 biocViews: ExperimentData, MassSpectrometryData
