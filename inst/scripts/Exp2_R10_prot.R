@@ -5,23 +5,16 @@ exprsFile <- system.file("extdata", "Exp2_R10_prot.txt", package="DAPARdata")
 
 metadataFile <- system.file("extdata", "samples_Exp2_R10.txt", package="DAPARdata")
 metadata <- read.table(metadataFile, header=TRUE, sep="\t", as.is=TRUE)
-indExpData <- c(1:6)
-indFData <- c(7:87)
+indExpData <- 1:6
 indiceID <- 79
 
 Exp2_R10_prot <- createMSnset(exprsFile, 
                          metadata, 
                          indExpData, 
-                         indFData, 
                          indiceID, 
-                         indexForMetacell = c(37:42),
-                         logData=TRUE, 
-                         replaceZeros=TRUE,
+                         indexForMetacell = 43:48,
+                         logData = TRUE, 
+                         replaceZeros = TRUE,
                          pep_prot_data = "protein",
                          proteinId = "Protein_IDs",
                          software = 'maxquant')
-
-fData(Exp2_R10_prot)[,'Sequence_lengths'] <- as.numeric(fData(Exp2_R10_prot)[,'Sequence_lengths'])
-fData(Exp2_R10_prot)[,'iBAQ_100_R1'] <- as.numeric(fData(Exp2_R10_prot)[,'iBAQ_100_R1'])
-fData(Exp2_R10_prot)[,'iBAQ_10_R2'] <- as.numeric(fData(Exp2_R10_prot)[,'iBAQ_10_R2'])
-
