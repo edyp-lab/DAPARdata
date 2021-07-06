@@ -16,3 +16,5 @@ Exp2_R10_pept <- createMSnset(file = exprsFile,
                               pep_prot_data = "peptide",
                               proteinId = "Protein_group_IDs",
                               software = 'maxquant')
+
+Exp2_R10_pept <- Set_X_CC_infos(Exp2_R10_pept)

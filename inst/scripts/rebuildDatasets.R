@@ -1,3 +1,20 @@
+
+Set_X_CC_infos <- function(obj){
+  Xshared <- BuildAdjacencyMatrix(obj, "Protein_group_IDs", FALSE)
+  Xunique <- BuildAdjacencyMatrix(obj, "Protein_group_IDs", TRUE)
+  ll.X <- list(matWithSharedPeptides = Xshared, 
+               matWithUniquePeptides = Xunique)
+  obj <- SetMatAdj(obj, ll.X)
+  ll1 <- get.pep.prot.cc(GetMatAdj(obj)$matWithSharedPeptides)
+  ll2 <- DAPAR::get.pep.prot.cc(GetMatAdj(obj)$matWithUniquePeptides)
+  cc <- list(allPep = ll1, 
+             onlyUniquePep = ll2)
+  obj <- SetCC(obj, cc)
+  
+  return(obj)
+}
+
+
 source(file = 'Exp1_R2_pept.R')
 save(Exp1_R2_pept, file = '../../data/Exp1_R2_pept.RData')
 saveRDS(Exp1_R2_pept, '../extdata/Exp1_R2_pept.MSnset')
