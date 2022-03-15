@@ -4,7 +4,8 @@
 \name{Exp1_R25_pept}
 \alias{Exp1_R25_pept}
 \title{Exp1_R25_pept dataset}
-\format{An object of class \code{\link{MSnSet}} related to peptide
+\format{
+An object of class \code{\link{MSnSet}} related to peptide
 quantification. It contains 6 samples divided into two conditions
 (25fmol and 10fmol) and 13918 peptides.
 
@@ -14,7 +15,8 @@ quantitation of peptides for the six replicates.
 The data frame fData(Exp1_R25_pept) contains the meta data about the peptides.
 
 The data frame pData(Exp1_R25_pept) contains the experimental design and gives 
-few informations about the samples.}
+few informations about the samples.
+}
 \usage{
 data(Exp1_R25_pept)
 }
@@ -53,4 +55,3 @@ experiments. Proteomics, 16(1), 29-32.
 }
 \keyword{data}
 \keyword{datasets}
-
