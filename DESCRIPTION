@@ -1,7 +1,7 @@
 Package: DAPARdata
 Type: Package
 Title: Data accompanying the DAPAR and Prostar packages
-Version: 1.26.0
+Version: 1.27.0
 Date: 2022-04-15
 Author: Samuel Wieczorek and Florence Combes
 Maintainer: Samuel Wieczorek <samuel.wieczorek@cea.fr>
