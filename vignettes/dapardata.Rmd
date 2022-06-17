@@ -1,0 +1,21 @@
+---
+title: "DAPARdata"
+author: 
+- name: Samuel Wieczorek
+date: "`r Sys.Date()`"
+output:
+    BiocStyle::pdf_document:
+        highlight: tango
+vignette: >
+    %\VignetteIndexEntry{DAPARdata User Manual}
+    %\VignetteEngine{knitr::rmarkdown}
+    %%\VignetteKeywords{Mass Spectrometry, Quantitative }
+    %\VignetteEncoding{UTF-8}
+---
+
+
+# Session info
+
+```{r sessioninfo}
+sessionInfo()
+```
