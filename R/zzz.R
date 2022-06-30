@@ -1,3 +1,4 @@
+#' @import MSnbase
 .onAttach <- function(libname, pkgname) {
 msg <- paste0("\nThis is DAPARdata version ",
                 utils::packageVersion("DAPARdata"), ".\n",
@@ -7,4 +8,4 @@ packageStartupMessage(msg)
 
 
 DAPARdata <- function() {
-utils::data(package = "DAPARdata")}
+    utils::data(package = "DAPARdata")}
