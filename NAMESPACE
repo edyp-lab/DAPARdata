@@ -2,4 +2,5 @@
 
 export(BuildAllDatasets)
 export(Set_X_CC_infos)
+import(MSnbase)
 importFrom(utils,read.table)

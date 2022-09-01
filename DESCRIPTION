@@ -1,8 +1,8 @@
 Package: DAPARdata
 Type: Package
 Title: Data accompanying the DAPAR and Prostar packages
-Version: 1.27.1
-Date: 2022-06-17
+Version: 1.27.2
+Date: 2022-09-01
 Authors@R: c(
     person("Florence", "Combes", email = "florence.combes@cea.fr", 
     role = "aut"),
@@ -21,13 +21,15 @@ Description: Mass-spectrometry based UPS proteomics data sets from Ramus C,
             proteomics: A graphical tool to visually check the assumptions 
             underlying FDR control in quantitative experiments. Proteomics, 
             16(1), 29-32.
-Depends: R (>= 4.2.0)
-Suggests: knitr, DAPAR
+Depends:
+    R (>= 4.2.0),
+    MSnbase
+Suggests: knitr
 Imports: utils 
 License: GPL-2
 biocViews: ExperimentData, MassSpectrometryData, Proteome
 NeedsCompilation: no
-RoxygenNote: 7.2.0
+RoxygenNote: 7.2.1
 Packaged: 2017-10-31 14:29:57 UTC; biocbuild
 Encoding: UTF-8
 URL: http://www.prostar-proteomics.org/
