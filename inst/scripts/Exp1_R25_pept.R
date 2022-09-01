@@ -32,7 +32,7 @@ metadata <- read.table(
   stringsAsFactors = FALSE)
 
 
-Exp1_R25_pept <- createMSnset(
+Exp1_R25_pept <- DAPAR::createMSnset(
   file = exprsFile, 
   metadata = metadata, 
   indExpData = seq.int(from = 56, to = 61),

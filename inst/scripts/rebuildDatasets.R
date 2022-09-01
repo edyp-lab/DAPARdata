@@ -20,11 +20,11 @@ Set_X_CC_infos <- function(obj){
   ll.X <- list(matWithSharedPeptides = Xshared, 
                matWithUniquePeptides = Xunique)
   obj <- DAPAR::SetMatAdj(obj, ll.X)
-  ll1 <- DAPAR::get.pep.prot.cc(GetMatAdj(obj)$matWithSharedPeptides)
-  ll2 <- DAPAR::get.pep.prot.cc(GetMatAdj(obj)$matWithUniquePeptides)
+  ll1 <- DAPAR::get.pep.prot.cc(DAPAR::GetMatAdj(obj)$matWithSharedPeptides)
+  ll2 <- DAPAR::get.pep.prot.cc(DAPAR::GetMatAdj(obj)$matWithUniquePeptides)
   cc <- list(allPep = ll1, 
              onlyUniquePep = ll2)
-  obj <- SetCC(obj, cc)
+  obj <- DAPAR::SetCC(obj, cc)
   
   return(obj)
 }
@@ -46,47 +46,47 @@ BuildAllDatasets <- function(){
     saveRDS(Exp1_R2_pept, './Exp1_R2_pept.MSnset')
 
     Exp1_R2_prot <- NULL
-    builds_Exp1_R2_prot.R()
+    builds_Exp1_R2_prot()
     save(Exp1_R2_prot, file = './Exp1_R2_prot.RData')
     saveRDS(Exp1_R2_prot, './Exp1_R2_prot.MSnset')
 
     Exp1_R25_pept <- NULL
-    builds_Exp1_R25_pept.R()
+    builds_Exp1_R25_pept()
     save(Exp1_R25_pept, file = './Exp1_R25_pept.RData')
     saveRDS(Exp1_R25_pept, './Exp1_R25_pept.MSnset')
 
     Exp1_R25_prot <- NULL
-    builds_Exp1_R25_prot.R()
+    builds_Exp1_R25_prot()
     save(Exp1_R25_prot, file = './Exp1_R25_prot.RData')
     saveRDS(Exp1_R25_prot, './Exp1_R25_prot.MSnset')
 
     Exp2_R2_pept <- NULL
-    builds_Exp2_R2_pept.R()
+    builds_Exp2_R2_pept()
     save(Exp2_R2_pept, file = './Exp2_R2_pept.RData')
     saveRDS(Exp2_R2_pept, './Exp2_R2_pept.MSnset')
 
     Exp2_R2_prot <- NULL
-    builds_Exp2_R2_prot.R()
+    builds_Exp2_R2_prot()
     save(Exp2_R2_prot, file = './Exp2_R2_prot.RData')
     saveRDS(Exp2_R2_prot, './Exp2_R2_prot.MSnset')
 
     Exp2_R10_pept <- NULL
-    builds_Exp2_R10_pept.R()
+    builds_Exp2_R10_pept()
     save(Exp2_R10_pept, file = './Exp2_R10_pept.RData')
     saveRDS(Exp2_R10_pept, './Exp2_R10_pept.MSnset')
 
     Exp2_R10_prot <- NULL
-    builds_Exp2_R10_prot.R()
+    builds_Exp2_R10_prot()
     save(Exp2_R10_prot, file = './Exp2_R10_prot.RData')
     saveRDS(Exp2_R10_prot, './Exp2_R10_prot.MSnset')
 
     Exp2_R100_pept <- NULL
-    builds_Exp2_R100_pept.R()
+    builds_Exp2_R100_pept()
     save(Exp2_R100_pept, file = './Exp2_R100_pept.RData')
     saveRDS(Exp2_R100_pept, './Exp2_R100_pept.MSnset')
 
     Exp2_R100_prot <- NULL
-    builds_Exp2_R100_prot.R()
+    builds_Exp2_R100_prot()
     save(Exp2_R100_prot, file = './Exp2_R100_prot.RData')
     saveRDS(Exp2_R100_prot, './Exp2_R100_prot.MSnset')
 

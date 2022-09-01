@@ -33,7 +33,7 @@ metadata <- read.table(
   as.is = TRUE
   )
 
-Exp2_R100_prot <- createMSnset(
+Exp2_R100_prot <- DAPAR::createMSnset(
   file = exprsFile, 
   metadata = metadata,
   indExpData = seq_len(6), 
