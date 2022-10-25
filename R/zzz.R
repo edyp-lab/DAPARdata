@@ -7,5 +7,6 @@ packageStartupMessage(msg)
 }
 
 
+#' @export
 DAPARdata <- function() {
     utils::data(package = "DAPARdata")}

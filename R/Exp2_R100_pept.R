@@ -1,43 +1,42 @@
-#' @title Builds Exp1_R25_pept dataset
+#' @title Builds Exp2_R100_pept dataset
 #' 
-#' @rdname Exp1_R25_pept
+#' @rdname Exp2_R100_pept
 #' @examples 
-#' builds_Exp1_R25_pept()
+#' builds_Exp2_R100_pept()
 #' 
 #' @importFrom utils read.table
 #' 
-
-builds_Exp1_R25_pept <- function(){
-  
+#' @export
+#' 
+builds_Exp2_R100_pept <- function(){
   if (! requireNamespace("DAPAR", quietly = TRUE)) {
     stop("Please install DAPAR: BiocManager::install('DAPAR')")
   }
-  
   exprsFile <- system.file(
     "extdata", 
-    "Exp1_R25_pept.txt", 
-    package = "DAPARdata"
+    "Exp2_R100_pept.txt", 
+    package="DAPARdata"
     )
 
 metadataFile <- system.file(
   "extdata", 
-  "samples_Exp1_R25.txt", 
-  package = "DAPARdata"
+  "samples_Exp2_R100.txt", 
+  package="DAPARdata"
   )
+
 metadata <- read.table(
   metadataFile, 
   header = TRUE, 
   sep = "\t", 
-  as.is = TRUE, 
-  stringsAsFactors = FALSE)
+  as.is = TRUE
+  )
 
-
-Exp1_R25_pept <- DAPAR::createMSnset(
+Exp2_R100_pept <- DAPAR::createMSnset(
   file = exprsFile, 
   metadata = metadata, 
-  indExpData = seq.int(from = 56, to = 61),
+  indExpData = seq_len(6),
   colnameForID = 'id', 
-  indexForMetacell = seq.int(from = 43, to = 48),
+  indexForMetacell = seq.int(from = 49, to = 54),
   logData = TRUE, 
   replaceZeros = TRUE,
   pep_prot_data = "peptide",
@@ -45,6 +44,8 @@ Exp1_R25_pept <- DAPAR::createMSnset(
   software = 'maxquant'
   )
 
-Exp1_R25_pept <- Set_X_CC_infos(Exp1_R25_pept)
-Exp1_R25_pept
+Exp2_R100_pept <- Set_X_CC_infos(Exp2_R100_pept)
+
+save(Exp2_R100_pept, file = './Exp2_R100_pept.RData')
+saveRDS(Exp2_R100_pept, './Exp2_R100_pept.MSnset')
 }

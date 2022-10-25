@@ -41,6 +41,7 @@ Exp1_R2_pept <- DAPAR::createMSnset(
 
 Exp1_R2_pept <- Set_X_CC_infos(Exp1_R2_pept)
 
-Exp1_R2_pept
+save(Exp1_R2_pept, file = './Exp1_R2_pept.RData')
+saveRDS(Exp1_R2_pept, './Exp1_R2_pept.MSnset')
 
 }

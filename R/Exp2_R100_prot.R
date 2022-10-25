@@ -1,13 +1,16 @@
 
-#' @title Builds Exp2_R10_prot dataset
+#' @title Builds Exp2_R100_prot dataset
 #' 
-#' @rdname Exp2_R10_prot
+#' @rdname Exp2_R100_prot
+#' 
 #' @examples 
-#' builds_Exp2_R10_prot()
+#' builds_Exp2_R100_prot()
 #' 
 #' @importFrom utils read.table
 #' 
-builds_Exp2_R10_prot <- function(){
+#' @export
+#' 
+builds_Exp2_R100_prot <- function(){
   
   if (! requireNamespace("DAPAR", quietly = TRUE)) {
     stop("Please install DAPAR: BiocManager::install('DAPAR')")
@@ -15,27 +18,28 @@ builds_Exp2_R10_prot <- function(){
   
   exprsFile <- system.file(
     "extdata", 
-    "Exp2_R10_prot.txt", 
-    package="DAPARdata"
+    "Exp2_R100_prot.txt", 
+    package = "DAPARdata"
     )
 
 metadataFile <- system.file(
   "extdata", 
-  "samples_Exp2_R10.txt", 
+  "samples_Exp2_R100.txt", 
   package = "DAPARdata"
   )
 
-metadata <- read.table(metadataFile, 
+metadata <- read.table(
+  metadataFile, 
   header = TRUE, 
-  sep="\t", 
+  sep = "\t", 
   as.is = TRUE
   )
 
-Exp2_R10_prot <- DAPAR::createMSnset(
+Exp2_R100_prot <- DAPAR::createMSnset(
   file = exprsFile, 
-  metadata = metadata, 
+  metadata = metadata,
   indExpData = seq_len(6), 
-  colnameForID = 'id',
+  colnameForID = 'id', 
   indexForMetacell = seq.int(from = 43, to = 48),
   logData = TRUE, 
   replaceZeros = TRUE,
@@ -44,5 +48,6 @@ Exp2_R10_prot <- DAPAR::createMSnset(
   software = 'maxquant'
   )
 
-Exp2_R10_prot
+save(Exp2_R100_prot, file = './Exp2_R100_prot.RData')
+saveRDS(Exp2_R100_prot, './Exp2_R100_prot.MSnset')
 }

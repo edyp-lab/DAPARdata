@@ -8,6 +8,8 @@
 #' 
 #' @importFrom utils read.table
 #' 
+#' @export
+#' 
 builds_Exp1_R2_prot <- function(){
   
   if (! requireNamespace("DAPAR", quietly = TRUE)) {
@@ -42,6 +44,7 @@ Exp1_R2_prot <- DAPAR::createMSnset(
   proteinId = "Protein_IDs",
   software = 'maxquant')
 
-Exp1_R2_prot
+save(Exp1_R2_prot, file = './Exp1_R2_prot.RData')
+saveRDS(Exp1_R2_prot, './Exp1_R2_prot.MSnset')
 
 }
