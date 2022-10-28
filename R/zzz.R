@@ -7,6 +7,12 @@ packageStartupMessage(msg)
 }
 
 
+#' @title Lists the datasets embebbedin DAPARdata
+#' 
 #' @export
+#' 
+#' @examples 
+#' DAPARdata()
+#' 
 DAPARdata <- function() {
     utils::data(package = "DAPARdata")}

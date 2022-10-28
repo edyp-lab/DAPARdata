@@ -16,6 +16,7 @@ An object of class `MSnSet`
 Adjacency matrix and connected components information
 }
 \examples{
+data(Exp1_R25_pept)
 Set_X_CC_infos(Exp1_R25_pept)
 
 }

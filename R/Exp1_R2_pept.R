@@ -7,6 +7,8 @@
 #' builds_Exp1_R2_pept()
 #' 
 #' @importFrom utils read.table
+#' 
+#' @export
 
 builds_Exp1_R2_pept <- function(){
   

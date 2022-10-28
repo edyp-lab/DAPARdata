@@ -34,7 +34,7 @@ metadata = read.table(
   as.is = TRUE
   )
 
-Exp1_R25_prot <- NULL
+
 Exp1_R25_prot <- DAPAR::createMSnset(
   file = exprsFile, 
   metadata = metadata, 

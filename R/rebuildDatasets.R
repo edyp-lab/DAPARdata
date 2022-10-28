@@ -7,6 +7,7 @@
 #' @export
 #' 
 #' @examples 
+#' data(Exp1_R25_pept)
 #' Set_X_CC_infos(Exp1_R25_pept)
 #' 
 Set_X_CC_infos <- function(obj){
