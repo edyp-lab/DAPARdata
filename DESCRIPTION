@@ -24,7 +24,7 @@ Description: Mass-spectrometry based UPS proteomics data sets from Ramus C,
 Depends:
     R (>= 4.2.0),
     MSnbase
-Suggests: knitr, DAPAR (>=1.30.2)
+Suggests: knitr, DAPAR (>= 1.30.2)
 Imports: utils 
 License: GPL-2
 biocViews: ExperimentData, MassSpectrometryData, Proteome
