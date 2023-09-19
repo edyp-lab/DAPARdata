@@ -1,8 +1,8 @@
 Package: DAPARdata
 Type: Package
 Title: Data accompanying the DAPAR and Prostar packages
-Version: 1.30.0
-Date: 2022-10-24
+Version: 1.30.1
+Date: 2023-09-06
 Authors@R: c(
     person("Florence", "Combes", email = "florence.combes@cea.fr", 
     role = "aut"),
@@ -25,11 +25,11 @@ Depends:
     R (>= 4.2.0),
     MSnbase
 Suggests: knitr, DAPAR
-Imports: utils 
+Imports: utils, BiocStyle, graph 
 License: GPL-2
 biocViews: ExperimentData, MassSpectrometryData, Proteome
 NeedsCompilation: no
-RoxygenNote: 7.2.1
+RoxygenNote: 7.2.3
 Packaged: 2017-10-31 14:29:57 UTC; biocbuild
 Encoding: UTF-8
 URL: http://www.prostar-proteomics.org/
