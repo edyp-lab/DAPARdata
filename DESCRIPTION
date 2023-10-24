@@ -1,7 +1,7 @@
 Package: DAPARdata
 Type: Package
 Title: Data accompanying the DAPAR and Prostar packages
-Version: 1.31.2
+Version: 1.32.0
 Date: 2022-10-24
 Authors@R: c(
     person("Florence", "Combes", email = "florence.combes@cea.fr", 
