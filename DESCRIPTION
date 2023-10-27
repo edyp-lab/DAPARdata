@@ -1,8 +1,8 @@
 Package: DAPARdata
 Type: Package
 Title: Data accompanying the DAPAR and Prostar packages
-Version: 1.31.2
-Date: 2023-04-17
+Version: 1.33.0
+Date: 2022-10-24
 Authors@R: c(
     person("Florence", "Combes", email = "florence.combes@cea.fr", 
     role = "aut"),
@@ -28,7 +28,7 @@ Description: Mass-spectrometry based UPS proteomics data sets from Ramus C,
 Depends:
     R (>= 4.3.0),
     MSnbase
-Suggests: knitr, DAPAR, graph 
+Suggests: knitr, DAPAR, BiocStyle
 Imports: utils 
 License: GPL-2
 biocViews: ExperimentData, MassSpectrometryData, Proteome
