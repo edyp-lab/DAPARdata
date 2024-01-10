@@ -23,8 +23,7 @@ Set_X_CC_infos <- function(obj){
   obj <- DAPAR::SetMatAdj(obj, ll.X)
   ll1 <- DAPAR::get.pep.prot.cc(DAPAR::GetMatAdj(obj)$matWithSharedPeptides)
   ll2 <- DAPAR::get.pep.prot.cc(DAPAR::GetMatAdj(obj)$matWithUniquePeptides)
-  cc <- list(allPep = ll1, 
-             onlyUniquePep = ll2)
+  cc <- list(allPep = ll1, onlyUniquePep = ll2)
   obj <- DAPAR::SetCC(obj, cc)
   
   return(obj)
