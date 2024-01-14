@@ -1,0 +1,44 @@
+CHANGES IN VERSION 1.1.5
+-------------------------
+Reformat the documentation of the package
+Obsolete vignettes deleted
+
+
+
+CHANGES IN VERSION 1.1.3
+-------------------------
+Reformat the documentation of the package
+
+
+CHANGES IN VERSION 1.1.1
+-------------------------
+Reformat the documentation of the package
+
+CHANGES IN VERSION 1.1.1
+-------------------------
+ o Six datasets have been added in the package: 
+    Exp2_R2_pept and Exp2_R2_prot,
+    Exp2_R10_pept and Exp2_R10_prot,
+    Exp2_R100_pept and Exp2_R100_prot
+
+    Those datasets come from : 
+    Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
+    Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, Ferro M, 
+    Dorssaeler AV, Burlet-Schiltz O, Schaeffer C, Coute Y, Gonzalez de Peredo A.
+    Spiked proteomic standard dataset for testing label-free quantitative software 
+    and statistical methods. Data Brief. 2015 Dec 17;6:286-94.PMID: 26862574.
+
+o The former datasets UPS2xxx and UPS25xxx have been renamed in:
+    Exp1_R2_pept and Exp1_R2_prot,
+    Exp1_R25_pept and Exp1_R25_prot
+
+CHANGES IN VERSION 0.99.0
+-------------------------
+ o Initial commit with data from the ProFi project :
+ Ramus C, Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
+ Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, Ferro M, 
+ Van Dorssaeler A, Burlet-Schiltz O, Schaeffer C, Coute Y, 
+ Gonzalez de Peredo A. Benchmarking quantitative label-free LC-MS data 
+ processing workflows using a complex spiked proteomic standard dataset. 
+ J Proteomics. 2016 Jan 30;132:51-62. PMID: 26585461
+
