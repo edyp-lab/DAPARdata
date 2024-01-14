@@ -3,12 +3,13 @@ Type: Package
 Title: Data accompanying the DAPAR and Prostar packages
 Version: 1.32.1
 Date: 2022-10-24
-Authors@R: c(
+Author: c(
     person("Florence", "Combes", email = "florence.combes@cea.fr", 
     role = "aut"),
     person("Samuel", "Wieczorek", email = "samuel.wieczorek@cea.fr", 
     role = c("cre", "aut"))
     )
+Maintainer: Samuel Wieczorek <samuel.wieczorek@cea.fr>
 Description: Mass-spectrometry based UPS proteomics data sets from Ramus C, 
             Hovasse A, Marcellin M, Hesse AM, Mouton-Barbosa E, Bouyssie D, 
             Vaca S, Carapito C, Chaoui K, Bruley C, Garin J, Cianferani S, 
